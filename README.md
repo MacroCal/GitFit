@@ -2,7 +2,7 @@
 
 ### Team Members
 
-Jeanette Leyv,
+Jeanette Leyva,
 Kaeden O'Meara,
 Kao Saelor,
 Coriana Williams
@@ -13,15 +13,19 @@ Git Fit is the perfect fitness website for anyone looking to take their health a
 
 ### Problem Domain
 
-[Insert a brief explanation of the problem domain that the project aims to address. Explain how the project solves those problems and its potential impact on users or stakeholders.]
+GitFit is a fitness website that helps people achieve their health and fitness goals by providing macro calculators, meal plans, and workout plans. It solves the problems of users not knowing how to calculate their macronutrients, how to create a nutritious meal plan, and how to design an effective workout plan.
 
-### Semantic Versioning
+### Tools, Languages, Libraries, Frameworks, or Packages Used for this Project:
 
-The project will use semantic versioning, beginning with version 1.0.0. Changes to the project will increment the version number according to the following rules:
+Tools: Git, GitHub, Google Draw, LucidChart,
 
-### Libraries, Frameworks, and Packages used
+Languages: HTML, CSS, and JavaScript.
 
-[Insert a list of any libraries, frameworks, or packages that your application requires in order to properly function. If needed, provide instructions that the user may need to follow in order to get your application up and running on their own computer.]
+Libraries:
+
+Famework:
+
+Packages:
 
 ### WireFrame for Git Fit
 
