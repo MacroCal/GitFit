@@ -32,4 +32,9 @@ The project will use semantic versioning, beginning with version 1.0.0. Changes 
 User stories are a way to describe a feature or functionality of a product from the perspective of the user. They provide a concise description of the functionality that is being delivered, who the user is, and the benefit they will get from it.  The following link demonstrates five different types of user stories for our website: [User Stories](https://trello.com/b/ug6JMxCE/gitfit)
 
 
+### Domain Modeling
+We have created a domain model for Git Fit below to help identify the key entities and their relationships to ech other.
+![Domain Modeling](img/DomainModeling.jpeg)
+
+
 Thank you and let us know if you have any questions!
