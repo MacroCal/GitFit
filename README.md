@@ -2,7 +2,7 @@
 
 ### Team Members
 
-Jeanette Leyv,
+Jeanette Leyva,
 Kaeden O'Meara,
 Kao Saelor,
 Coriana Williams
