@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <script></script>
 
 
@@ -64,3 +65,6 @@ function Katch(weight)
     return calories;
 }
 
+=======
+.
+>>>>>>> f19ba5d2ac48720bae470beda56a18c8b9e6c69e
