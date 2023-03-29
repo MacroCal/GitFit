@@ -15,10 +15,12 @@ main {
     justify-content: center;
     border: 2px solid black;
     min-width: 1300px;
+    background-image: url(../img/cuttingboard.jpg);
   }
 
   .box {
-    background-color: #eee;
+    background-color: whitesmoke;
+    opacity: 90%;
     border-radius: 5px;
     margin: 10px;
     padding: 10px;
@@ -27,7 +29,9 @@ main {
   }
 
 
+
+
 img {
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
 }
