@@ -21,12 +21,6 @@ Tools: Git, GitHub, Google Draw, LucidChart,
 
 Languages: HTML, CSS, and JavaScript.
 
-Libraries:
-
-Famework:
-
-Packages:
-
 ### WireFrame for Git Fit
 
 ![Wire Frame](img/WireFrame.jpg)
