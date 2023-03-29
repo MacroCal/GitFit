@@ -16,6 +16,7 @@ main {
     border: 2px solid black;
     min-width: 1300px;
     background-image: url(../img/cuttingboard.jpg);
+    background-size: cover;
 }
 
 .box {
