@@ -1,6 +1,9 @@
 
 #h3Style {
     text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px #1C2834;
 }
 
 body {
@@ -10,7 +13,7 @@ body {
 main {
     min-width: 1300px;
     margin: 2rem auto;
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
     background-color: white;
 }
 
@@ -18,10 +21,11 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     min-width: 1300px;
     background-image: url(../img/cuttingboard.jpg);
     background-size: cover;
+    border-radius: 10px;
 }
 
 .box {
@@ -32,7 +36,7 @@ main {
     padding: 10px;
     width: 20%;
     text-align: center;
-    transition: 360ms all;
+    transition: 400ms all;
 }
 
 .box:hover {
