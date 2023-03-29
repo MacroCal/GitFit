@@ -17,7 +17,7 @@ GitFit is a fitness website that helps people achieve their health and fitness g
 
 ### Tools, Languages, Libraries, Frameworks, or Packages Used for this Project:
 
-Tools: Git, GitHub, Google Draw, LucidChart,
+Tools: Git, GitHub, Google Draw, LucidChart.
 
 Languages: HTML, CSS, and JavaScript.
 
