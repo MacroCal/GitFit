@@ -1,12 +1,12 @@
 
 const macronutrientRatios = {
   lose: {
-    protein: 0.4,
+    protein: 0.5,
     carbs: 0.4,
     fat: 0.2
   },
   maintain: {
-    protein: 0.3,
+    protein: 0.75,
     carbs: 0.5,
     fat: 0.2
   },
@@ -26,6 +26,7 @@ const workoutPlans = {
 
 // Function to calculate the recommended macronutrient breakdown and workout plan
 function calculate() {
+  const name = String(document.getElementById('name').value);
   const age = Number(document.getElementById('age').value);
   const weight = Number(document.getElementById('weight').value);
   const goal = document.querySelector('input[name="goal"]:checked').value;
@@ -36,8 +37,8 @@ function calculate() {
   const fat = Math.round(weight * macronutrientRatios[goal].fat);
 
   // Display the recommended macronutrient breakdown and workout plan on the webpage
-  document.getElementById('result-macros').textContent = `Protein: ${protein}g, Carbs: ${carbs}g, Fat: ${fat}g`;
-  document.getElementById('result-workout').textContent = `Workout Plan: ${workoutPlans[goal]}`;
+  document.getElementById('result-macros').textContent = `Hi ${name}! Based on your Age of ${age}, Weight of ${weight}, and Goal of ${goal} weight, we recommend the following Macronutrients: Protein: ${protein}g, Carbs: ${carbs}g, Fat: ${fat}g`;
+  document.getElementById('result-workout').textContent = `Hi ${name}! Based on your Age of ${age}, Weight of ${weight}, and Goal of ${goal} weight, we recommend the following Workout Plan: ${workoutPlans[goal]}`;
 }
 
 // Add an event listener to the form's submit button to call the calculate function
@@ -45,6 +46,6 @@ document.querySelector('form').addEventListener('submit', function (event) {
   event.preventDefault();
   calculate();
 });
-main
+
 
 
