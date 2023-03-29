@@ -1,4 +1,3 @@
-coriana
 
 const macronutrientRatios = {
   lose: {
@@ -47,3 +46,5 @@ document.querySelector('form').addEventListener('submit', function (event) {
   calculate();
 });
 main
+
+
