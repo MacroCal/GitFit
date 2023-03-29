@@ -1,4 +1,3 @@
-coriana
 
 const macronutrientRatios = {
   lose: {
