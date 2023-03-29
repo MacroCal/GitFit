@@ -1,3 +1,4 @@
+
 const macronutrientRatios = {
   lose: {
     protein: 0.4,
@@ -44,3 +45,6 @@ document.querySelector('form').addEventListener('submit', function (event) {
   event.preventDefault();
   calculate();
 });
+main
+
+
