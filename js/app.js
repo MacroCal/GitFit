@@ -1,3 +1,4 @@
+'use strict';
 
 const macronutrientRatios = {
   lose: {
@@ -26,8 +27,7 @@ const workoutPlans = {
 
 // Function to calculate the recommended macronutrient breakdown and workout plan
 function calculate() {
-  const name = String(document.getElementById('name').value);
-  const age = Number(document.getElementById('age').value);
+  // const age = Number(document.getElementById('age').value);
   const weight = Number(document.getElementById('weight').value);
   const goal = document.querySelector('input[name="goal"]:checked').value;
 
@@ -42,10 +42,14 @@ function calculate() {
 }
 
 // Add an event listener to the form's submit button to call the calculate function
-document.querySelector('form').addEventListener('submit', function (event) {
+// document.querySelector('form').addEventListener('submit', function (event) {
+//   event.preventDefault();
+//   calculate();
+// });
+let resultsButton = document.getElementById('calcButton');
+resultsButton.addEventListener('click', function (event) {
   event.preventDefault();
   calculate();
 });
-
 
 
