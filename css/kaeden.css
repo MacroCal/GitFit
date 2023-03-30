@@ -1,5 +1,5 @@
 
-#h3Style {
+.h3Style {
     text-align: center;
     font-family: 'Cinzel', serif;
     font-size: 3rem;
@@ -38,6 +38,16 @@ main {
     width: 20%;
     text-align: center;
     transition: 400ms all;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/premium.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 5px #1C2834;
 }
 
 .box:hover {
