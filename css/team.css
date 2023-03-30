@@ -1,4 +1,72 @@
 
+html {
+  display: table;
+  margin: auto;
+  color:  #1c2834;
+  background-color: #384555;
+}
+
+
+h1 {
+font-family: 'Alex Brush', cursive;
+font-family: 'Lobster', cursive;
+font-size:60px;
+font-weight: bold;
+text-align: center;
+}
+       body {
+          display: table-cell;
+          vertical-align: middle;
+          padding: 62px;
+          /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+          color: #1c2834;
+          background-color:#f8f8ff;
+          
+      }
+
+
+nav {
+  display: flex;
+  align-content: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 0px;
+  /* margin-left: -83px;
+  margin-right: -100px;
+  width: 1500px; */
+ 
+} 
+
+
+.row {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+overflow:hidden;
+background-color: #1C2834;
+margin-top: -100px;
+margin-left: 100;
+width: 1500px;
+}
+
+.row a {
+display: inline-block;
+color: whitesmoke;
+text-align: center;
+padding: 14px 16px;
+text-decoration:#ccc;
+font-size: 17px;
+
+}
+.row a:hover {
+background-color: #f8f8ff;
+color: #384555;
+}
+
+
+/* Old code before Jeanette fixed the header */
+/* 
 .Navcontainer {
   justify-content: space-evenly;
   margin: 0px; 
@@ -7,7 +75,7 @@
 }
 
 /* The navbar */
-.topnav {
+/* .topnav {
   display: flex;
   justify-content: center;
   overflow:hidden;
@@ -22,7 +90,7 @@
 }
 
 /* Navbar links */
-.topnav a {
+/* .topnav a {
   float: left;
   color: whitesmoke;
   text-align: center;
@@ -34,7 +102,7 @@
 .topnav a:hover{
   background-color: #545D6C;
   color: #384555, ;
-}
+} */ 
 
 
 /* Team Page CSS */
@@ -50,6 +118,7 @@ section {
     border: 5px solid #000;
     text-indent: 5px;
     margin: none;
+    width: 1500px;
 }
 
 .pteam {
