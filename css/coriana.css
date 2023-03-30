@@ -1,118 +1,132 @@
-
 /* 
-        .navlogo {
-          /* The image used */
-          /* background-image: url("/img/logo.png"); 
-        
-          /* min-height: 1000px; */
-        
-          /* Center and scale the image nicely */
-          /* background-position: center;
-          background-repeat: no-repeat; 
-          background-size: cover; */
-        
-          /* /* Needed to position the navbar */
-          /* position: relative;
-        }
-         */
-        /* Position the navbar container inside the image */
+header {
+  align-items: center;
+} */
 
-        /* .Navcontainer {
-          display: flex;
-          flex-wrap: wrap;
-          margin: 0px;
-          width: auto;
-        } */
-        
-        /* The navbar */
-        /* .topnav {
-          overflow:hidden;
-          background-color: #1C2834;
-        }
-        
-        /* Navbar links */
-        /* .topnav a {
-          float: left;
-          color: whitesmoke;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration:#ccc;
-          font-size: 17px;
-        }
-         */
-        /* .topnav a:hover{
-          background-color: #545D6C;
-          color: #384555, ; */
-        /* } */
-/* /        */ 
-         body {
-            height: 100%;
-        }
+.HomePhoto {
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  padding: auto;
+  background-color: #545D6C;
+  box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.5);
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+/* 
+.Navlogo { 
+  justify-content: center;
+  display: flex;
+  width: auto;
+  height: auto;
+  /* position: absolute; */
+} */
 
-         section {
-            margin: auto;
-            color:  #1c2834;
-            background-color: #384555;
-        } 
+/* .Navcontainer {
+  margin: 0px; 
+  width: auto;
+  justify-content: center;
+} */
+
+/* The navbar */
+/* .topnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  overflow:hidden;
+  background-color: #1C2834;
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  margin: 20px;
+
+} */
+
+/* Navbar links */
+/* .topnav a {
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:#ccc;
+  font-size: 17px;
+}
+
+.topnav a:hover{
+  background-color: #545D6C;
+  color: #384555, ;
+} */
+
+section {
+  margin: auto;
+  color:  #1c2834;
+  background-color: #384555;
+ } 
         
 
-                footer {
-                  background-color: #1C2834;
-                  color: white;
-                  padding: 10px;
-                  text-align: center;
-                  font-size: 20px;
-                  border-top: 2px solid #ccc;
-
-                }
+ footer {
+  background-color: #1C2834;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-top: 2px solid #ccc;
+  position: fixed;
+  }
                 
-                footer p {
-                  margin: 0;
-                }
+ footer p {
+   margin: 0;
+ }
 
 .bio {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
+  font-family: 'Cinzel', serif;
+  font-size: 50px;
   font-weight: bold;
   background-color:  rgba(216, 27, 56, 0);
   color:rgb(4, 4, 19);
   padding: 0px;
   justify-content: center;
   text-align: center;
-  margin: 10px;
-  display: flex;
+  margin: auto;
+  display: grid;
 }
 
 .calculator-class {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Cinzel', serif;
   font-weight: bold;
-  border: solid 8px;
-  background-color:  rgba(216, 27, 56, 0);
+  font-size: 40px;
+  border: solid 2px;
+  background-color: #545D6C ;
   color:rgb(4, 4, 19);
-  padding: 15px;
+  padding: 20px;
   margin: 30px;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   flex: 1 0 200px;
-  max-width: 1900px;
+  max-width: 1400px;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  justify-content: space-around;
 }
 
 .meal-class {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Cinzel', serif;
   font-weight: bold;
-  border: solid 8px;
-  background-color:  rgba(216, 27, 56, 0);
+  font-size: 45px;
+  border: solid 2px;
+  background-color:  #545D6C;
   color:rgb(4, 4, 19);
   padding: 20px;
   margin: 30px;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   flex: 1 0 200px;
-  max-width: 1900px;
+  max-width: 1400px;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 20px;
@@ -120,21 +134,24 @@
 }
 
 .workout-class {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Cinzel', serif;
   font-weight: bold;
-  border: solid 8px;
-  background-color: white;
+  font-size: 45px;
+  border: solid 2px;
+  background-color: #545D6C;
   color:rgb(4, 4, 19);
-  padding: 20px;
+  padding: 30px;
   margin: 30px;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   flex: 1 0 200px;
-  max-width: 1900px;
+  max-width: 1400px;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  /* justify-content: space-around;
+  justify-content: center; */
 }
 
               
@@ -145,5 +162,200 @@
                 }  */
 
 body {
-  background-color: white;
+  background-color: #545D6C;
 }
+
+section {
+  justify-content: center;
+}
+
+.reviews {
+  margin: 0;
+  justify-content: center;
+  display: grid;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  border: solid 2px #545D6C;
+  background-color: #545D6C;
+  color:rgb(4, 4, 19);
+  /* width: auto;
+  height: auto; */
+}
+
+#review-form label, #review-form textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#review-form textarea {
+  height: 100px;
+}
+
+#review-form button {
+  margin-top: 10px;
+}
+
+#review-list {
+  list-style: none;
+  padding: 0;
+}
+
+.review-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 8px solid  rgba(216, 27, 56, 0);
+  border-radius: 10px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.reviews-header h3 {
+  margin: 0;
+  display: inline-grid;
+  font: bold;
+}
+
+.review-date {
+  font-style: italic;
+}
+
+.review-body {
+  margin-top: 10px;
+}
+
+
+.review-form2 {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  border: solid 8px;
+  background-color: white;
+  color:rgb(4, 4, 19);
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+
+/* .reviews2 {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  border: solid 10px;
+  background-color: #545D6C;
+  color:rgb(4, 4, 19);
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  justify-content: auto;
+  /* flex-wrap: wrap; */
+  /* flex: 1 0 200px; */
+  /* max-width: 500px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+} */ */
+
+/* .review-list2 {
+  list-style: none;
+  padding: 0;
+} */
+
+.review-list2 ul {
+  margin-bottom: 20px;
+}
+
+/* .review-header2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .review-header2 h3 {
+  /* margin: 0; */
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */ */
+
+.review-date2 {
+  font-style: italic;
+  display: inline-flex;
+
+}
+
+.review-body2 {
+  margin-top: 10px;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  border: solid 10px;
+  background-color: #545D6C;
+  color:rgb(4, 4, 19);
+  padding: 30px;
+  margin: 15px;
+  display: inline-flex;
+  max-width: 300px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+
+
+
+.reviews-list {
+  list-style: none;
+  margin-top: 10px;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  background-color: white;
+  color:rgb(4, 4, 19);
+  padding: 50px;
+  margin: auto;
+  display: table-header-group;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px; 
+}
+
+.pagination {
+  display: flex;
+  justify-content: baseline;
+  margin-top: 20px;
+}
+
+.pagination a {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #333;
+}
+
+.pagination a.active {
+  background-color: #ccc;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+
+.pagination .prev,
+.pagination .next {
+  margin-right: 10px;
+}
+
+.pagination .prev:hover,
+.pagination .next:hover {
+  background-color: transparent;
+}
+
+
+
+
