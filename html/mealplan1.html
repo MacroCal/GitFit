@@ -8,6 +8,9 @@
     <title>GitFit | Meal Plans</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/kaeden.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Yanone+Kaffeesatz:wght@200;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,93 +25,143 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Standard Plan</h2>
-            <h3>Weight Loss</h3>
-            <h4>Breakfast (450 calories, 40g carbs, 20g fat, 25g protein)
-            </h4>
-            <ul>
-                <li>2 scrambled eggs</li>
-                <li>1/2 cup cooked oatmeal</li>
-                <li>1/2 cup blueberries</li>
-                <li>2 slices whole wheat toast with 1 tablespoon of peanut butter
-                </li>
-            </ul>
-            <h4>Lunch (400 calories, 45g carbs, 15g fat, 25g protein)
-            </h4>
-            <ul>
-                <li>4 ounces grilled chicken breast</li>
-                <li>1 cup cooked brown rice</li>
-                <li>1 cup steamed broccoli</li>
-                <li>1 tablespoon olive oil</li>
-            </ul>
-            <h4>Snack (200 calories, 20g carbs, 10g fat, 10g protein): </h4>
-            <ul>
-                <li>1 cup plain Greek yogurt</li>
-                <li>1/4 cup granola</li>
-                <li>1/2 cup raspberries</li>
-            </ul>
-            <h4> Dinner (600 calories, 65g carbs, 20g fat, 35g protein):</h4>
-            <ul>
-                <li>4 ounces grilled salmon</li>
-                <li>1 cup cooked quinoa</li>
-                <li>1 cup roasted Brussels sprouts</li>
-                <li>1 tablespoon olive oil</li>
-            </ul>
-            <h2>Gain Weight</h2>
-            <h4>Breakfast (675 calories, 88g of carbs, 20.9g of fat, and 25.3g of protein)
-            </h4>
-            <ul>
-                <li>2 slices of whole grain toast with 2 tablespoons of peanut butter</li>
-                <li>1 banana</li>
-                <li>1 cup of skim milk</li>
-            </ul>
-            <h4>Lunch (805 calories, 99g of carbs, 17.8g of fat, and 55.5g of protein)</h4>
-            <ul>
-                <li>Turkey and cheese sandwich with avocado and mustard on whole grain bread</li>
-                <li>Baby carrots and hummus</li>
-                <li>Apple</li>
-                <li>Skim milk (1 cup)</li>
-            </ul>
-            <h4>Snack (435 calories, 50 grams of carbs, 12 grams of fat, and 30 grams of protein)
-            </h4>
-            <ul>
-                <li>Smoothie made with banana, almond butter, Greek yogurt, and skim milk</li>
-            </ul>
-            <h4> Dinner (790 calories, 75 grams of carbs, 19.5 grams of fat, and 53 grams of protein):</h4>
-            <ul>
-                <li>Grilled chicken breast</li>
-                <li>Brown rice (1 cup) with mixed vegetables</li>
-                <li>Salad with mixed greens, avocado, tomato, and vinaigrette dressing (olive oil and vinegar)</li>
-                <li>Skim milk (1 cup)</li>
-            </ul>
-            <h3>Sustain</h3>
-            <h4>Breakfast (380 calories, 71g of carbs, 4g of fat, and 15g of protein)
-            </h4>
-            <ul>
-                <li>Oatmeal (1 cup cooked) with sliced banana and cinnamon</li>
-                <li>1 cup of skim milk or unsweetened almond milk</li>
-            </ul>
-            <h4>Lunch (500 calories, 58g of carbs, 10g of fat, and 37g of protein)</h4>
-            <ul>
-                <li>Whole grain wrap with sliced turkey breast, hummus, and mixed vegetables (e.g. lettuce, tomato, cucumber, and red onion)</li>
-                <li>1 cup of vegetable soup</li>
-            </ul>
-            <h4>Snack (250 calories, 18g of carbs, 16g of fat, and 6g of protein)</h4>
-            <ul>
-                <li>Fresh fruit (e.g. apple, pear, or orange)</li>
-                <li>1 oz of unsalted nuts (e.g. almonds, walnuts, or pistachios)</li>
-            </ul>
-            <h4> Dinner (600 calories, 52g of carbs, 24g of fat, and 39g of protein)</h4>
-            <ul>
-                <li>Grilled salmon fillet (4 oz) with roasted vegetables (e.g. broccoli, bell peppers, and carrots)</li>
-                <li>Quinoa (1 cup cooked) with diced avocado and lime juice</li>
-            </ul>
-            <button type="button">Get Standard</button>
+        <h2>Standard Plan</h2>
+        <h3 id="h3Style">Weight Loss</h3>
+        <section class="container">
+            <div class="box">
+                <img src="../img/oatmeal.jpg" alt="bowl of oatmeal">
+                <h4>Breakfast (450 calories, 40g carbs, 20g fat, 25g protein)
+                </h4>
+                <ul>
+                    <li>2 scrambled eggs</li>
+                    <li>1/2 cup cooked oatmeal</li>
+                    <li>1/2 cup blueberries</li>
+                    <li>2 slices whole wheat toast with 1 tablespoon of peanut butter
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <img src="../img/lunch.jpg" alt="plate with chicken">
+                <h4>Lunch (400 calories, 45g carbs, 15g fat, 25g protein)
+                </h4>
+                <ul>
+                    <li>4 ounces grilled chicken breast</li>
+                    <li>1 cup cooked brown rice</li>
+                    <li>1 cup steamed broccoli</li>
+                    <li>1 tablespoon olive oil</li>
+                </ul>
+            </div>
+            <div class="box">
+                <img src="../img/snack.jpg" alt="greek yogurt">
+                <h4>Snack (200 calories, 20g carbs, 10g fat, 10g protein): </h4>
+                <ul>
+                    <li>1 cup plain Greek yogurt</li>
+                    <li>1/4 cup granola</li>
+                    <li>1/2 cup raspberries</li>
+                </ul>
+            </div>
+            <div class="box">
+                <img src="../img/salmon.jpg" alt="plate of cooked salmon">
+                <h4> Dinner (600 calories, 65g carbs, 20g fat, 35g protein):</h4>
+                <ul>
+                    <li>4 ounces grilled salmon</li>
+                    <li>1 cup cooked quinoa</li>
+                    <li>1 cup roasted Brussels sprouts</li>
+                    <li>1 tablespoon olive oil</li>
+                </ul>
+            </div>
         </section>
         <section>
+            <h3 id="h3Style">Gain Muscle</h3>
+        </section>
+        <section class="container">
+            <div class="box">
+                <img src="../img/toast.jpg" alt="toast with peanut butter">
+                <h4>Breakfast (675 calories, 88g of carbs, 20.9g of fat, and 25.3g of protein)
+                </h4>
+                <ul>
+                    <li>2 slices of whole grain toast with 2 tablespoons of peanut butter</li>
+                    <li>1 banana</li>
+                    <li>1 cup of skim milk</li>
+                </ul>
+            </div>
+            <div class="box">
+                <img>
+                <h4>Lunch (805 calories, 99g of carbs, 17.8g of fat, and 55.5g of protein)</h4>
+                <ul>
+                    <li>Turkey and cheese sandwich with avocado and mustard on whole grain bread</li>
+                    <li>Baby carrots and hummus</li>
+                    <li>Apple</li>
+                    <li>Skim milk (1 cup)</li>
+                </ul>
+
+            </div>
+            <div class="box">
+                <img>
+                <h4>Snack (435 calories, 50 grams of carbs, 12 grams of fat, and 30 grams of protein)
+                </h4>
+                <ul>
+                    <li>Smoothie made with banana, almond butter, Greek yogurt, and skim milk</li>
+                </ul>
+
+            </div>
+            <div class="box">
+                <img>
+                <h4> Dinner (790 calories, 75 grams of carbs, 19.5 grams of fat, and 53 grams of protein):</h4>
+                <ul>
+                    <li>Grilled chicken breast</li>
+                    <li>Brown rice (1 cup) with mixed vegetables</li>
+                    <li>Salad with mixed greens, avocado, tomato, and vinaigrette dressing (olive oil and vinegar)</li>
+                    <li>Skim milk (1 cup)</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h3 id="h3Style">Sustain</h3>
+        </section>
+        <section class="container">
+            <div class="box">
+                <img>
+                <h4>Breakfast (380 calories, 71g of carbs, 4g of fat, and 15g of protein)
+                </h4>
+                <ul>
+                    <li>Oatmeal (1 cup cooked) with sliced banana and cinnamon</li>
+                    <li>1 cup of skim milk or unsweetened almond milk</li>
+                </ul>
+            </div>
+            <div class="box">
+                <img>
+                <h4>Lunch (500 calories, 58g of carbs, 10g of fat, and 37g of protein)</h4>
+                <ul>
+                    <li>Whole grain wrap with sliced turkey breast, hummus, and mixed vegetables (e.g. lettuce, tomato,
+                        cucumber, and red onion)</li>
+                    <li>1 cup of vegetable soup</li>
+                </ul>
+
+            </div>
+            <div class="box">
+                <img>
+                <h4>Snack (250 calories, 18g of carbs, 16g of fat, and 6g of protein)</h4>
+                <ul>
+                    <li>Fresh fruit (e.g. apple, pear, or orange)</li>
+                    <li>1 oz of unsalted nuts (e.g. almonds, walnuts, or pistachios)</li>
+                </ul>
+            </div>
+            <div class="box">
+                <img>
+                <h4> Dinner (600 calories, 52g of carbs, 24g of fat, and 39g of protein)</h4>
+                <ul>
+                    <li>Grilled salmon fillet (4 oz) with roasted vegetables (e.g. broccoli, bell peppers, and carrots)
+                    </li>
+                    <li>Quinoa (1 cup cooked) with diced avocado and lime juice</li>
+                </ul>
+            </div>
+        </section>
+        <button type="button">Get Standard</button>
+        <section>
             <h2>Go Premium!</h2>
-            <p>Premium will allow you to have more control over what your meals consist of with help from our professionals!</p>
+            <p>Premium will allow you to have more control over what your meals consist of with help from our
+                professionals!</p>
             <button type="button">Get Premium</button>
         </section>
     </main>
