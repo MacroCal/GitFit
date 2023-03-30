@@ -2,6 +2,7 @@
 
 
 let favorites = [];
+let clickedBoxes = [];
 let storedBoxes = JSON.parse(localStorage.getItem('favorites')) || [];
 let boxes = document.querySelectorAll('.box');
 
@@ -18,8 +19,12 @@ boxes.forEach(boxElement => {
 
   boxElement.addEventListener('click', function (event) {
     event.preventDefault();
-    console.log(`Box ${box.name} clicked! Image filepath: ${box.filepath}`);
-    favorites.push(box);
+    if (!clickedBoxes.includes(boxElement)) {
+      console.log(`Box ${box.name} clicked! Image filepath: ${box.filepath}`);
+      favorites.push(box);
+      clickedBoxes.push(boxElement);
+      renderResults(favorites);
+    }
   });
   storedBoxes.push(box);
 });
@@ -32,6 +37,18 @@ console.log('these are faorites', favorites);
 
 // need to create a function to render the results onto page
 
+function renderResults(favorites) {
+  let resultsEl = document.getElementById('myListResults');
+  resultsEl.innerHTML = ''; // clear previous results
+
+  favorites.forEach(favorite => {
+    let liEl = document.createElement('li');
+    liEl.textContent = `${favorite.name} `;
+    resultsEl.appendChild(liEl);
+  });
+}
+
+renderResults(favorites);
 
 
 
