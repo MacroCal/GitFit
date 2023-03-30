@@ -10,44 +10,24 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/coriana.css">
 </head>
+<body>
+    <!-- <div class="Navlogo"><img src="/img/logo.png" alt="logo" width="1000" height="300"></div> -->
 
-    <header class="">
-        <nav class="row" id="navigation">
+    <!-- <header class="header">
+        <div class="Navcontainer">
+            <div class="topnav">
             <a href="index.html">Home</a> 
             <a href="calculator.html">Macro Calculator</a> 
-            <a href="mealplan1.html">Meal Plan</a>  
+            <a href="mealplan.html">Meal Plan</a>  
             <a href="workoutplan.html">Workout Plans</a>
             <a href="team.html">Team</a>
-        </nav>
+        </div> -->
+
+  
     </header>
 
-    <div class="Navlogo"><img src="/img/logo.png" alt="logo" width="500" height="250"></div> 
-    <div class="Navcontainer2">
-        <div class="topnav">
-</header>
-<body>
-
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-
-<body>
-    <header class="header">
-        <div class="Navcontainer">
-          <div class="topnav">
-            <a href="index.html">Home</a>
-            <a href="calculator.html">Macro Calculator</a>
-            <a href="mealplan.html">Meal Plans</a>
-            <a href="workoutplan.html">Workout Plans</a>
-            <a href="team.html">Team</a>
-          </div>
-    
-          <div class="Navlogo"><img src="/img/logo.png" alt="logo" width="500" height="250"></div>
-        </div>
-      </header>
-
-<img src="https://place-hold.it/200x70/ddd"/> </header>
-
+<div class="HomePhoto"><img src="/img/homepage.jpg" alt="homepicture" width="2000" height="700"/> </header></div>
+    <section class="bio">
     <p>
         Git Fit is the perfect fitness website for anyone looking to take their health and fitness to the next level! With our macronutrients calculator, meal plans, and workout plans, you'll be able to achieve your fitness goals in no time. Our experts have crafted meal and workout plans specifically tailored to your individual needs. 
     </p>
@@ -69,25 +49,57 @@
     <p id="workouts"></p>
     <p> <a href= "/html/workoutplan.html">Click Here</a></p>
     </section>
+   
 
+    <div class="reviews">
+        <h3>Customer Reviews</h3>
+        <form id="review-form2">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="rating">Rating:</label>
+          <select id="rating" name="rating">
+            <option value="5">5 stars</option>
+            <option value="4">4 stars</option>
+            <option value="3">3 stars</option>
+            <option value="2">2 stars</option>
+            <option value="1">1 star</option>
+          </select>
+          <label for="comment">Comment:</label>
+          <textarea id="comment" name="comment"></textarea>
+          <button type="submit">Submit Review</button>
+        </form>
+        <ul id="review-list2"></ul>
+      </div>
+        
+     
+    <div class="reviews">
+        <ul class="reviews-list">
+          <li>Review 1: <h3>John Jones</h3>The meal plans were a life changing start to the year! I typically stray away because I'm a picky eater but it exceeded my expectations, and I highly recommend it to anyone.</p>
+            <span class="review-date2">01/01/2023</span></li>
+          <li>Review 2: <h3>Sarah Young</h3>I was disappointed that I only went with the standard plan but I reached out Kaeden and recieved a response that same day! He was able to get all set up within minutes! Amazing customer service! 
+            <p> <span class="review-date2">02/22/2023</span></li></p>
+          <li>Review 3: <h3>John Doe</h3>Not much of a review person but the macronutrient calculator was such a cool tool to be able to use before committing to anything. It gave me a much needed wake up call.
+            <p><span class="review-date2">03/12/2023</span></li></p> 
+          <li>Review 4: <h3>Emily Roberts</h3>The workouts are intense but it's just the push I needed to take my upcoming bodybuilding clients to new heights. You guys have a team that I wouldn't mind joining!
+            <p><span class="review-date2">03/25/2023</span></li></p>
 
-    </p>
-    <h2>Macronutrient Calculator: If you're ready to know your macros, our macronutrient can help you determine your daily targets for your goals. This tool is used to estinate the macronutrient needs of a person based on you're age, activity level, and height goals! </h2> 
-    <p> <a href= "/html/calculator.html">Click Here</a></p>
-    <p id="calculator"></p>
-            <!-- </label>
-                <input type="submit" value="Click Here" /> -->
-    <h2>Meal Plans: Use our Meal Planning tool to add recipes to your weekly meal plan. This is a Git Fit strategy that maps out what you will eat on a particular day, week or even month! </h2>
-    <p id="meals"></p>
-    <p> <a href= "/html/mealplan1.html">Click Here</a></p>
-            <!-- </label>
-                <input type="submit" value="Click Here" /> -->
-    <h2>Workout Plan: Power up your fitness! If you're looking to start exercising and getting training tips, exercise advice, and workout routines from the professionals at Git Fit. Explore more to start building muscles or leaning out unwanted weight to transform your body today! </h2>
-    <p id="workouts"></p>
-    <p> <a href= "/html/workoutplan.html">Click Here</a></p>
-            <!-- </label>
-                <input type="submit" value="Click Here" /> -->
-
+          <div class="pagination">
+            <a href="#" class="prev">Previous</a>
+            <a href="#" class="page active">1</a>
+            <a href="#" class="page">2</a>
+            <a href="#" class="next">Next</a>
+          </div> 
+        <!-- </ul>
+         <div class="pagination">
+          <a href="#" class="prev">Previous</a>
+          <a href="#" class="page active">1</a>
+          <a href="#" class="page">2</a>
+          <a href="#" class="next">Next</a>
+        </div>
+      </div>  -->
+        
+      </script>
+      <script src="coriana.js"></script>
      <footer>
          <p>&copy; 2023 Git Fit. All rights reserved.</p>
     </footer>

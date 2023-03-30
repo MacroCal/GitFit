@@ -35,4 +35,6 @@ We have created a domain model for Git Fit below to help identify the key entiti
 ![Domain Modeling](img/DomainModeling.jpeg)
 
 
+
+homepage photo: Photo by <a href="https://unsplash.com/@akramhuseyn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Akram Huseyn</a> 
 Thank you and let us know if you have any questions!
