@@ -138,3 +138,12 @@ footer {
 footer p {
     margin: 0;
 }
+
+#myListResults {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    list-style-type: square;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 5px #1C2834;
+}
