@@ -1,4 +1,83 @@
 
+#navlogo {
+    /* display: block; */
+    /* min-width: 920px; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 44px;
+    width: 145px;
+}
+nav {
+    margin-top: -50px;
+    width: 1832px;
+    background-color: #1C2834;
+    height: 60px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    flex: 1;
+    text-align: center;
+}
+nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+}
+a:hover {
+    background-color: #F8F8FF;
+    color: #384555;
+}
+header {
+    /* border: 2px solid white; */
+    position: fixed;
+    width: 100%;
+}
+
+
+
+also had to put position: absolute on the body idk if everyone has to do that or not
+
+<header>
+        <nav>
+            <ul>
+                <img id="navlogo" src="" alt="logo">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="calculator.html">Macro Calculator</a></li>
+                <li><a href="mealplan.html">Meal Plan</a></li>
+                <li><a href="workoutplan.html">Workout Plans</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
+1:07
+html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  nav {
     display: flex;
     align-content: center;
