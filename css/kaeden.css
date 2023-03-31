@@ -26,6 +26,7 @@ body {
     margin-right: auto;
 }
 
+
 nav {
     margin-top: 0;
     width: 100%;
@@ -110,6 +111,16 @@ main {
     box-shadow: 2px 2px 5px #1C2834;
 }
 
+.column-container p {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    width: 50%;
+    color: #1C2834;
+    background-color: white;
+    border-radius: 15px;
+}
+
 .box:hover {
     border: 2px solid #1C2834;
     transform: scale(105%);
@@ -137,4 +148,21 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+#myListResults {
+    background-color: whitesmoke;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    list-style-type: square;
+    /* text-align: center; */
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #1C2834;
+    display: block;
+    min-width: 920px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.25rem;
 }
