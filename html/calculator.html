@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team</title>
-    <meta name="description" content="calculator">
-    <meta name="keywords" content="Calculator">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/calculator.css"> 
-  </head>
-
+    <title>GitFit | Calculator</title>
+    <!-- <link rel="stylesheet" href="../css/reset.css"> -->
+    <link rel="stylesheet" href="../css/calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Yanone+Kaffeesatz:wght@200;400&display=swap"
+        rel="stylesheet">
+</head>
 
 <body>
-  <header>
-    <nav>
-        <nav class="row" id="navigation">
-            <img src="../img/logo.png" alt="logo" width="300" height="150">
-    
-            <a href="../index.html">Home</a>
-            <a href="calculator.html">Macro Calculator</a>
-            <a href="mealplan.html">Meal Plan</a>
-            <a href="workoutplan.html">Workout Plans</a>
-            <a href="team.html">Team</a>
+    <header>
+        <nav>
+            <ul>
+                <img id="navlogo" src="../img/logo.png" alt="logo">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="calculator.html">Macro Calculator</a></li>
+                <li><a href="mealplan.html">Meal Plan</a></li>
+                <li><a href="workoutplan.html">Workout Plans</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
         </nav>
+    </header>
 
-</header>
+<main>
+  <h2>Macronutrient Calculator</h2>
+    <p class="intro">Macronutrients are the three major nutrients that the body needs in large amounts: carbohydrates, proteins and fats. They are essential for providing energy, regulating hormones, and performing other important bodily functions.
 
-<main class="content">
-
-<h2>Macronutrient Calculator</h2>
-<p> Macronutrients are the three major nutrients that the body needs in large amounts: carbohydrates, proteins and fats. They are essential for providing energy, regulating hormones, and performing other important bodily functions.
-
-  It is important to calculate macronutrients because they are essential to maintaining good health and achieving your fitness goals. Knowing how much of each macronutrient you need to consume helps you make sure you get the nutrients you need without overdoing it. An imbalance of macronutrients can lead to health problems and may prevent you from achieving your desired goals.</p>
-    <div class="macro">
+    It is important to calculate macronutrients because they are essential to maintaining good health and achieving your fitness goals. Knowing how much of each macronutrient you need to consume helps you make sure you get the nutrients you need without overdoing it. An imbalance of macronutrients can lead to health problems and may prevent you from achieving your desired goals.</p>
+    
+  <div class="macro">
     <form>
       <label for="name">Name:</label>
       <input type="text" id="name" name="name"><br>
@@ -59,7 +61,7 @@
 
     <p class="pinstruct">
       <ol>
-        <h3>To fill out the Macro Calculator, please follow the below instructions:</h3>
+        <h4>To fill out the Macro Calculator, please follow the below instructions:</h4>
         <li>Enter your Name, Age and Weight in the appropriate boxes.</li>
         <li>Select your goal from the list of options.</li>
         <li>Click the "Calculate" button to generate your personalized macro targets.</li>
@@ -70,10 +72,10 @@
     </p>
   
     </div>
-    <h2>Recommended Macronutrient Breakdown:</h2>
+    <h3>Recommended Macronutrient Breakdown:</h2>
     <p id="result-macros"></p>
 
-    <h2>Recommended Workout Plan:</h2>
+    <h3>Recommended Workout Plan:</h2>
     <p id="result-workout"></p>
 
   </main>
