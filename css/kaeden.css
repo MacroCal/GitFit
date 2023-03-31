@@ -20,10 +20,12 @@ body {
 }
 
 #navlogo {
-    display: block;
-    min-width: 920px;
+    /* display: block; */
+    /* min-width: 920px; */
     margin-left: auto;
     margin-right: auto;
+    height: 50px;
+    width: 150px;
 }
 
 
@@ -68,10 +70,13 @@ header {
 
 body {
     background-color: #1c2834;
+    position: absolute;
 }
 
 
 main {
+    /* position: absolute; */
+    margin-top: 100px;
     margin-left: 2rem;
     margin-right: 2rem;
     min-width: 1300px;
