@@ -136,6 +136,7 @@ h1 {
 
 /* Footer */
 footer {
+ kao6
   background-color: #1C2834;
   color: white;
   padding: 10px;
@@ -143,6 +144,20 @@ footer {
   font-size: 20px;
   border-top: 2px solid #ccc;
 }
+
+    background-color: #1C2834;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    border-top: 2px solid #ccc;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+ main
 
 footer p {
   margin: 0;
