@@ -6,9 +6,36 @@
     text-shadow: 2px 2px 5px #1C2834;
 }
 
-body {
-    background-color: #384555;
+.c-message {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 5px #1C2834;
+    opacity: 50%;
 }
+
+#navlogo {
+    display: block;
+    min-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-logo {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    border: 2px solid white;
+}
+
+
+body {
+    background-color: #1c2834;
+}
+
 
 main {
     min-width: 1300px;
@@ -61,4 +88,20 @@ main {
 img {
     height: 220px;
     width: 220px;
+}
+
+
+
+footer {
+    background-color: #1C2834;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-top: 2px solid #ccc;
+    min-width: 1300px;
+}
+
+footer p {
+    margin: 0;
 }
