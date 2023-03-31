@@ -2,6 +2,36 @@
 header {
   align-items: center;
 } */
+/* Jeanette added the styles below, delete if you dont want. Didnt feel the need for a 
+header because of the links you provided. */
+html {
+  display: table;
+  margin: auto;
+  color:  #1c2834;
+  background-color: #384555;
+
+}
+
+
+h1 {
+font-family: 'Alex Brush', cursive;
+font-family: 'Lobster', cursive;
+font-size:60px;
+font-weight: bold;
+text-align: center;
+}
+       body {
+          /* display: table-cell; */
+          vertical-align: middle;
+          padding-top: 50px;
+          /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+          color: #1c2834;
+          background-color:#f8f8ff;
+          width: 1500px
+          
+          
+      }
+   /* jeanette added the above html and body, delete if you dont want*/
 
 .HomePhoto {
   justify-content: center;

@@ -1,3 +1,9 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .h3Style {
     text-align: center;
@@ -20,15 +26,43 @@
     margin-right: auto;
 }
 
-.center-logo {
+
+nav {
+    margin-top: 0;
+    width: 100%;
+    background-color: #1C2834;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    flex: 1;
+    text-align: center;
+}
+
+nav a {
     display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+}
+
+a:hover {
+    background-color: #f8f8ff;
+    color: #384555;
 }
 
 header {
     border: 2px solid white;
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -38,8 +72,9 @@ body {
 
 
 main {
+    margin-left: 2rem;
+    margin-right: 2rem;
     min-width: 1300px;
-    margin: 2rem auto;
     border-radius: 15px 15px 0 0;
     background-color: white;
 }
@@ -48,7 +83,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* border: 2px solid black; */
     min-width: 1300px;
     background-image: url(../img/cuttingboard.jpg);
     background-size: cover;
@@ -58,7 +92,7 @@ main {
 
 .box {
     background-color: whitesmoke;
-    opacity: 90%;
+    /* opacity: 90%; */
     border-radius: 5px;
     margin: 10px;
     padding: 10px;
@@ -75,6 +109,16 @@ main {
     background-image: url(../img/premium.jpg);
     background-size: cover;
     box-shadow: 2px 2px 5px #1C2834;
+}
+
+.column-container p {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    width: 50%;
+    color: #1C2834;
+    background-color: white;
+    border-radius: 15px;
 }
 
 .box:hover {
@@ -104,4 +148,21 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+#myListResults {
+    background-color: whitesmoke;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    list-style-type: square;
+    /* text-align: center; */
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #1C2834;
+    display: block;
+    min-width: 920px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.25rem;
 }
